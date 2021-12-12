@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&family=Zen+Kurenaido&display=swap');
+
+:root{
+    background-color: #1b1e1f;
+}
+.header{
+    padding: 20px;
+    text-align: left;
+    background: #AD2831;
+    color: white;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 7% 70%;
+    font-family: "Zen Antique Soft";
+}
+.logo{
+    border-radius: 90%;
+}
+.footer {
+    background-color: #fdd557;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
