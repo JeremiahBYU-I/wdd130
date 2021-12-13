@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&family=Zen+Kurenaido&display=swap');
 
-:root{
-    background-color: #1b1e1f;
-}
+
+
 .header{
     padding: 20px;
     text-align: left;
@@ -10,7 +9,7 @@
     color: white;
     font-size: 25px;
     display: grid;
-    grid-template-columns: 7% 70%;
+    grid-template-columns: 7% 71%;
     font-family: "Zen Antique Soft";
 }
 .logo{
@@ -23,4 +22,18 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.home-grid{
+    display: grid;
+    size: 50px;
+}
+.about-me{
+    position: relative;
+    bottom: 600px;
+    left: 600px;
+}
+#home-grid{
+    display: grid;
+    grid-column: auto;
+    max-width: 100px;
 }
